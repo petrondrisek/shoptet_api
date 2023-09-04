@@ -28,7 +28,7 @@ $grantType = 'authorization_code';
 $scope = 'api';
 
 // URL entered on the addon settings page that you expect a request with the parameter 'code' for example:
-$redirectUri = 'https://vyvoj.prezza.cz/ShoptetAPI/konfigurator-install.php';
+$redirectUri = 'https://vyvoj.prezza.cz/ShoptetAPI/addon-install.php';
 
 // Sending the request to get secret_token
 $data = [
