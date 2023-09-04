@@ -21,3 +21,8 @@ Adresář action - Tahle složka už je finální, která by měla všechno zavo
 - POST: (chybí)
 
 Adresář logs - Zde se ukládají chyby (zatím tam jsou jen chyby vzniklé při instalaci, odinstalaci nebo pauzování doplňku)
+
+
+Před spuštěním je potřeba upravit:
+- settings.php
+- addon-install.php - tam je id a secret k Shoptet API partner a pak i URL kam se vrací, to musí odpovídat tomu, kde je nahrán soubor addon-install.php
